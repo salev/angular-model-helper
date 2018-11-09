@@ -1,6 +1,10 @@
-# angular-model-helper
+# Typescript Model Helper
 
-Using of data models gives, at least, 3 benifits:
-1) Object, created with help of new operator, can be identified with help of "instanseof".
-2) Deserialization from JSON.
-3) Serialization into JSON.
+This code helps to deserializ / serialize JSON into JavaScript object.
+
+Currently, it handles with 3 types of fileds:
+1) Date fields
+2) Children object fields
+3) Fileds using in UI only.
+
+
